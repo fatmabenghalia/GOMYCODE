@@ -1,0 +1,105 @@
+/* Reset some default styles */
+ul, li, form {
+    margin: 10;
+    padding: 10;
+}
+
+/* Centering container */
+.center-container {
+    text-align: center;
+}
+
+/* Styling for h2 elements */
+h2 {
+    border: 2px solid #0d1a26;
+    border-radius: 11px;
+    padding: 8px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Styling for p elements */
+p {
+    margin-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Body styles */
+body {
+    margin-top: 80px;
+    padding: 30px;
+    background-size: cover;
+    font-family: roboto;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top,#bdc3c7, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top,#bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    /* Other styling properties */
+    }
+
+/* Header styles */
+header {
+    background-color:#0d1a26;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* About section styles */
+#aboutme {
+    margin-top: 80px;
+}
+
+/* Work section styles */
+#mywork {
+    margin-top: 80px;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20%;
+}
+div{
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    margin-top: 15px;
+    
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #0d1a26;
+    border-radius: 4px;
+}

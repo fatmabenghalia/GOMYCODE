@@ -1,40 +1,10 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="./checkpiont_2.css" />
-        <title>Fatma's portfolio!</title>
-            <style>
-                body {
-                    height: 125vh;
-                    margin-top: 80px;
-                    padding: 30px;
-                    background-size:cover;
-                    font-family: sans-serif;
-                }
-                header {
-                    background-color: rgb(4, 4, 4);
-                    position: fixed;
-                    left: 0;
-                    right: 0;
-                    top: 0%;
-                    height: 50px;
-                    display: flex;
-                    align-items: center;
-                    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.24);
-                }
-                header * {
-                    display: inline;
-                }
-                header li {
-                    margin: 25px;
-                }
-                header li a {
-                    color:whitesmoke;
-                    text-decoration: none;
-                }
-            </style>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Fatma's portfolio!</title>
 </head>
-
 <body>
     <a name="home"> </a>
     <header>
@@ -50,50 +20,44 @@
                     <a href="#mywork"> Work </a>
                 </li>
                 <li>
-                    <a href="#contactme"> contact </a>
+                    <a href="#contactme"> Contact </a>
                 </li>
             </ul>
         </nav>
     </header>
     
-        <a name="aboutme"> </a>
-        <div>
-            <h2>About me</h2>
-            <p>I'm Fatma, a graphic designer and web developer student at GoMyCode.
-                Learn more about Gomycode:
-            </p>
-            <iframe
-	            width="390"
-	            height="255"
-	            src="https://www.youtube.com/embed/zcTFG_F0FRs"
-            ></iframe>
-        </div>
+    <!-- About Me Section -->
+    <div class="section" id="aboutme">
+        <h2>About me</h2>
+        <p>I'm Fatma, a graphic designer and web developer student at GoMyCode. Learn more about Gomycode:</p>
+        <iframe width="390" height="255" src="https://www.youtube.com/embed/zcTFG_F0FRs"></iframe>
+    </div>
 
-        <div>
-            <a name="mywork"> </a>
-            <h2 id="mywork"> My Work</h2>
-            <p>I have no project for the moment but I'll be uploading my futur projects on <a href="https://github.com/fatmabenghalia">my github </a> </p>
-        </dive>
+    
+    <!-- My Work Section -->
+    <div class="section" id="mywork">
+        <h2>My Work</h2>
+        <p>I have no project for the moment but I'll be uploading my future projects on <a href="https://github.com/fatmabenghalia">my GitHub</a></p>
+    </div>
 
-       <footer>
-        <a name="contactme"> </a>
-            <h2> Get in touch with me!</h2>
+
+    <!-- Contact Me Section -->
+    <footer class="section">
+        <div id="contactme">
+            <h2>Get in touch with me!</h2>
             <form>
                 <label>Your name:</label>
-                <input type="text" name="first name" placeholder="first name" />
-                <input type="text" name="secound name" placeholder="secound name" />
-            <br/>
-            <form>
-                <label>Your email </label>
-                <input type="text" name="email" placeholder="email" />
-            <br />
-            <form>
-                <label>Your message</label>
-                <textarea rows= "12" cols = 41></textarea>
+                <input type="text" name="first name" placeholder="First name" />
+                <input type="text" name="second name" placeholder="Second name" />
+                <br/>
+                <label>Your email:</label>
+                <input type="text" name="email" placeholder="Email" />
+                <br />
+                <label>Your message:</label>
+                <textarea rows="12" cols="41"></textarea>
                 <br/>
             </form>
-        
-       </footer> 
-        
+        </div>
+    </footer>     
 </body>
 </html>
